@@ -1,0 +1,67 @@
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+.FollowerCard{
+    width: 100%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+.follower{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.follower>div{
+    display: flex;
+    gap: 10px;
+}
+.followerImg{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #0d0d4c;
+}
+.name>span:nth-child(1){
+    font-weight: bold;
+    font-size: 17px;
+}
+.name>span:nth-child(2){
+    font-size: 15px;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.6rem; 
+  transition: all 100ms ease-out;
+  font-weight: bold;
+  background-color: #0d0d4c;
+}
+.fc-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    color: #0d0d4c;
+    background-color: transparent;
+    border: 2px solid #0d0d4c;
+    font-weight: bold;
+}

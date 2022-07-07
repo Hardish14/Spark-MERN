@@ -1,0 +1,37 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;   
+    color: #000066;  
+    font-size: medium;
+}
+.Post>img{
+    width: 100%;
+    max-height: 30rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/* .postReact>img{
+    width: 30px;
+    height: 30px;
+    /* margin: 10px; */
+    /* background-color: rgba(200, 247, 247, 0.893);  */
+    /* box-shadow: 0px 10px 20px 3px rgba(148, 239, 236, 0.697); */
+    /* border-radius: 10px; */
+    /* padding: 4px;  */
+/* } */
+.postReact>img{
+    height: 26px;
+    width: 26px;
+}
+.postReact{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 30px;
+    height: 30px;
+}
